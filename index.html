@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tablero Kanban Joan Solano</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">Proyecto académico</p>
+      <h1>Tablero Kanban Joan Solano</h1>
+      <p class="subtitle">Planificación visual para el proyecto TaskFlow</p>
+    </div>
+    <button id="resetBoard" class="secondary-button" type="button">Restablecer tablero</button>
+  </header>
+
+  <main class="board" aria-label="Tablero Kanban">
+    <section class="column" data-status="todo">
+      <div class="column-header">
+        <h2>Por hacer</h2>
+        <span class="count" data-count="todo">0</span>
+      </div>
+      <div class="task-list" data-list="todo"></div>
+    </section>
+
+    <section class="column" data-status="doing">
+      <div class="column-header">
+        <h2>En proceso</h2>
+        <span class="count" data-count="doing">0</span>
+      </div>
+      <div class="task-list" data-list="doing"></div>
+    </section>
+
+    <section class="column" data-status="review">
+      <div class="column-header">
+        <h2>En revisión</h2>
+        <span class="count" data-count="review">0</span>
+      </div>
+      <div class="task-list" data-list="review"></div>
+    </section>
+
+    <section class="column" data-status="done">
+      <div class="column-header">
+        <h2>Finalizado</h2>
+        <span class="count" data-count="done">0</span>
+      </div>
+      <div class="task-list" data-list="done"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>TaskFlow · Práctica de planificación con metodología Kanban</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+ENTREGA RÁPIDA
+==============
+
+Nombre del Project:
+Tablero Kanban Joan Solano
+
+Tipo de vista:
+Board / Kanban
+
+Columnas:
+Por hacer | En proceso | En revisión | Finalizado
+
+Total de tareas:
+8
+
+Lo que se entrega en la plataforma del profesor:
+La URL PÚBLICA de tu GitHub Project, por ejemplo:
+https://github.com/users/TU-USUARIO/projects/1/views/1
+
+IMPORTANTE:
+El ZIP por sí solo NO crea el GitHub Project. El tablero público se crea dentro de tu cuenta de GitHub siguiendo docs/PASOS_DESDE_CERO.md.
